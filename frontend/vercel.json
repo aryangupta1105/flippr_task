@@ -9,7 +9,9 @@
     "VITE_API_URL": "@vite_api_url"
   },
   "build": {
-    "env": ["VITE_API_URL"]
+    "env": {
+      "VITE_API_URL": "@vite_api_url"
+    }
   },
   "rewrites": [
     {
